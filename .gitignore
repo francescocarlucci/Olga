@@ -1,0 +1,19 @@
+# MacOS
+.DS_Store
+
+# Node dependencies
+node_modules/
+package-lock.json
+
+# Truffle builds
+build/
+
+# Local config
+*.log
+*.env
+
+# Migration files
+migrations/
+
+# Truffle temp
+*.ts
