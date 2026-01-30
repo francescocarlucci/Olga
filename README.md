@@ -10,9 +10,9 @@
   - Deposit, withdraw and use ETH anytime.  
   - Update beneficiaries and unlock period.  
 
-- **Time-based inactivity**
-  - Owner must periodically update `lastAliveCheck`.  
-  - **Every outgoing action by the owner (`withdraw` or `transfer`) automatically resets the timer.** 
+- **Time-based inactivity** 
+  - **Every outgoing action by the owner (`withdraw` or `transfer`) automatically resets the timer.**
+  - If the contract is used as vault (low activity), `lastAliveCheck` can be updated manually. 
   - After the configurable unlock period without activity, funds can be claimed by designated beneficiaries.  
 
 - **Beneficiaries**
