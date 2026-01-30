@@ -17,3 +17,6 @@ migrations/
 
 # Truffle temp
 *.ts
+
+# Everything underscored
+_*
